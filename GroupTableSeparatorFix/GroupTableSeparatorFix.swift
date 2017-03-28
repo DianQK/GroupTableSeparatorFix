@@ -38,7 +38,7 @@ extension UITableViewCell {
             separatorInset.left = 0.001
         }
         self.fix_layoutSubviews()
-        for view in self.subviews where view != self.contentView && NSStringFromClass(type(of: view)) == "_UITableViewCellSeparatorView" && view.frame.origin.x == 0 {
+        for view in self.subviews where view != self.contentView && view.frame.origin.x == 0 {
             view.removeFromSuperview()
         }
     }
