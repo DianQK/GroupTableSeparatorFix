@@ -38,8 +38,8 @@ extension UITableViewCell {
             separatorInset.left = 0.001
         }
         self.fix_layoutSubviews()
-        for view in self.subviews where view != self.contentView && view.frame.origin.x == 0 {
-            view.removeFromSuperview()
+        for view in self.subviews where view != self.contentView {
+            view.isHidden = view.frame.origin.x == 0 && view.frame.origin.y != -0.5
         }
     }
     
