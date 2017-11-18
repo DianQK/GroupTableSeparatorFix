@@ -9,13 +9,13 @@ Remove your first and last separator line on grouped tableview.
 ### Cocoapods
 
 ```
-pod 'GroupTableSeparatorFix', '~> 0.1.0'
+pod 'GroupTableSeparatorFix', '~> 0.2.0'
 ```
 
 ### Carthage
 
 ```
-github "DianQK/GroupTableSeparatorFix" ~> 0.1
+github "DianQK/GroupTableSeparatorFix" ~> 0.2
 ```
 
 ## Usage

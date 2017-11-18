@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = "GroupTableSeparatorFix"
- s.version = "0.1.1"
+ s.version = "0.2.0"
  s.summary = 'Remove your first and last separator line on grouped tableview.'
  s.homepage = "https://github.com/DianQK/GroupTableSeparatorFix"
  s.license = 'MIT'
