@@ -6,7 +6,7 @@
 //  Copyright © 2017 dianqk. All rights reserved.
 //
 
-import class UIKit.UITableViewCell
+import UIKit
 
 public class GroupTableSeparatorFix {
 
